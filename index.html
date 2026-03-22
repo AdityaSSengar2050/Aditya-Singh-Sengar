@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Singh Sengar — Python Dev & AI Student</title>
+  <meta name="description"
+    content="Portfolio of Aditya Singh Sengar, Python Developer, Aspiring Data Scientist, and AI Student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+       ═══════════════════════════════════════════ -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-logo">ADITYA SENGER</div>
+    <ul class="nav-links">
+      <li><a href="#scrolly" id="nav-about">ABOUT</a></li>
+      <li><a href="#scrolly" id="nav-project">PROJECT</a></li>
+      <li><a href="#scrolly" id="nav-tools">TOOLS</a></li>
+      <li><a href="#contact" id="nav-contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       FULL-PAGE LOADER
+       ═══════════════════════════════════════════ -->
+  <div id="loader" class="loader">
+    <div class="loader-ring"></div>
+    <p class="loader-text">Loading…</p>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       SINGLE SCROLLYTELLING CONTAINER
+       One tall scroll container → one sticky viewport
+       → one canvas → text chapters fade in/out
+       ═══════════════════════════════════════════ -->
+  <section id="scrolly" class="scrolly-container">
+    <div class="scrolly-sticky">
+
+      <!-- THE ONE CANVAS — plays all frames continuously -->
+      <canvas id="main-canvas"></canvas>
+
+      <!-- ── CHAPTER 1: HERO ── -->
+      <div id="ch-hero" class="chapter">
+        <div class="hero-text">
+          <div class="hero-name">
+            <img src="aditya name.png" alt="Aditya Singh Sengar" class="hero-name-img" />
+          </div>
+          <p class="hero-tagline">
+            <span>•Python dev</span>
+            <span>•Aspiring Data Scientist</span>
+            <span>•AI Student</span>
+          </p>
+        </div>
+        <div class="hero-cta">
+          <a id="btn-explore" class="cta-btn" href="#contact">EXPLORE</a>
+          <a id="btn-hire"    class="cta-btn" href="#contact">HIRE ME</a>
+        </div>
+      </div>
+
+      <!-- ── CHAPTER 2: WHO I AM ── -->
+      <div id="ch-about" class="chapter">
+        <div class="about-text">
+          <h2 class="about-title">WHO I AM</h2>
+          <p class="about-desc">
+            I'm Aditya Singh Sengar, a B.Tech Artificial Intelligence student with a
+            deep interest in Python and data science. I build intelligent solutions by
+            turning raw data into meaningful insights.
+          </p>
+          <p class="about-desc">
+            My learning goes beyond the classroom — I actively participate in technical
+            workshops and industry events, staying ahead of real-world AI trends.
+            Currently seeking internships in AI · Data Science · Python Development.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-row">
+            <span class="stat-label">Status</span>
+            <span class="stat-value">Open for Interships/Freelance</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Degree</span>
+            <span class="stat-value">B.Tech &nbsp; Artificial Intelligence</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Focus</span>
+            <span class="stat-value">Python · Data Science · ML</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Tools</span>
+            <span class="stat-value">Python · Excel · Tableau</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── CHAPTER 3: SKILLS & MY WORK ── -->
+      <div id="ch-skills" class="chapter">
+        <div class="skills-col">
+          <h2 class="skills-title">SKILLS</h2>
+          <div class="skill-card">
+            <h3 class="skill-name">PYTHON PROGRAMMING</h3>
+            <p class="skill-desc">LOGIC-BASED APPLICATIONS, SCRIPTS & AUTOMATION.<br>STRONG CORE PYTHON FUNDAMENTALS.
+            </p>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-name">DATA VISUALIZATION</h3>
+            <p class="skill-desc">BUILDING DASHBOARDS AND CHARTS WITH TABLEAU. WORKSHOP-LEVEL HANDS-ON EXPERIENCE.</p>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-name">AI FUNDAMENTALS</h3>
+            <p class="skill-desc">STRONG THEORETICAL BASE IN AI CONCEPTS, ALGORITHMS, AND REAL-WORLD APPLICATIONS.</p>
+          </div>
+          <div class="skill-card">
+            <h3 class="skill-name">RESEARCH & LEARNING SELF-DRIVEN</h3>
+            <p class="skill-desc">CONTINUOUSLY LEARNING. ALWAYS CURRENT WITH AI/ML ADVANCEMENTS.</p>
+          </div>
+        </div>
+        <div class="work-col">
+          <h2 class="work-title">MY WORK</h2>
+          <div class="work-grid">
+            <div class="work-card">
+              <h3 class="work-name">PYTHON PROGRAMMING</h3>
+              <p class="work-desc">BUILT LOGIC-BASED APPLICATIONS USING PYTHON — FOCUSING ON CLEAN CODE STRUCTURE AND
+                EFFICIENT PROBLEM-SOLVING. DEVELOPED PROGRAMS THAT STRENGTHENED CORE PROGRAMMING FUNDAMENTALS.</p>
+            </div>
+            <div class="work-card">
+              <h3 class="work-name">DATA ANALYSIS — EXCEL</h3>
+              <p class="work-desc">CLEANED RAW DATASETS AND EXTRACTED MEANINGFUL INSIGHTS USING EXCEL — PIVOT TABLES,
+                FILTERING, AND BASIC FORECASTING. TRANSFORMED MESSY DATA INTO ACTIONABLE REPORTS.</p>
+            </div>
+            <div class="work-card">
+              <h3 class="work-name">DATA SCIENCE CONCLAVE</h3>
+              <p class="work-desc">ATTENDED INTENSIVE TABLEAU WORKSHOP AND TECHNICAL TALKS. GAINED HANDS-ON
+                VISUALIZATION EXPERIENCE AND REAL-WORLD ANALYTICS WORKFLOWS FROM INDUSTRY EXPERTS.</p>
+            </div>
+            <div class="work-card">
+              <h3 class="work-name">MTS TECHSURGE 2026</h3>
+              <p class="work-desc">EXPLORED UNDERWATER ROBOTICS AND CUTTING-EDGE TECHNOLOGY FROM INDUSTRY PRACTITIONERS.
+                EXPANDED TECHNICAL UNDERSTANDING BEYOND AI INTO HARDWARE AND REAL-WORLD SYSTEMS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shared scroll indicator -->
+      <div class="scroll-indicator" id="scroll-cue">
+        <span class="scroll-text">SCROLL</span>
+        <div class="scroll-line"></div>
+      </div>
+
+    </div><!-- /scrolly-sticky -->
+  </section><!-- /scrolly-container -->
+
+  <!-- ═══════════════════════════════════════════
+       INFINITE TECH TICKER
+       ═══════════════════════════════════════════ -->
+  <section class="ticker-section">
+    <div class="ticker-wrap">
+      <div class="ticker-track">
+        <!-- Sequence 1 -->
+        <span class="ticker-item">CHATGPT</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">V0.DEV</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">CURSOR</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">FRAMER AI</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">BOLT.NEW</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">WEBFLOW</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">VERCEL</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">HTML/CSS</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">JAVASCRIPT</span>
+        <span class="ticker-sep">♦</span>
+        <!-- Sequence 2 (for seamless loop) -->
+        <span class="ticker-item">CHATGPT</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">V0.DEV</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">CURSOR</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">FRAMER AI</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">BOLT.NEW</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">WEBFLOW</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">VERCEL</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">HTML/CSS</span>
+        <span class="ticker-sep">♦</span>
+        <span class="ticker-item">JAVASCRIPT</span>
+        <span class="ticker-sep">♦</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CONTACT SECTION
+       ═══════════════════════════════════════════ -->
+  <section id="contact" class="contact-section">
+
+    <div class="contact-bg-glow"></div>
+
+    <div class="contact-inner">
+
+      <!-- Left: heading + social -->
+      <div class="contact-left">
+        <p class="contact-eyebrow">LET'S CONNECT</p>
+        <h2 class="contact-title">Got an idea<br>or opportunity?</h2>
+        <p class="contact-blurb">
+          I'm always open to internships, freelance projects, and
+          interesting collaborations in AI, Data Science, or Python development.
+        </p>
+
+        <div class="contact-links">
+          <a class="contact-link" href="https://www.instagram.com/4ryan.web/" target="_blank" rel="noopener noreferrer"
+            id="link-instagram">
+            <span class="cl-icon">📸</span>
+            <span>@4ryan.web</span>
+          </a>
+          <a class="contact-link" href="mailto:aditya@example.com" id="link-email">
+            <span class="cl-icon">✉️</span>
+            <span>aditya@example.com</span>
+          </a>
+          <a class="contact-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+            id="link-linkedin">
+            <span class="cl-icon">💼</span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: contact form -->
+      <form class="contact-form" id="contact-form" onsubmit="handleFormSubmit(event)">
+        <div class="cf-group">
+          <label class="cf-label" for="cf-name">Your Name</label>
+          <input class="cf-input" id="cf-name" type="text" placeholder="Aditya Sengar" required />
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-email">Email Address</label>
+          <input class="cf-input" id="cf-email" type="email" placeholder="you@example.com" required />
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-subject">Subject</label>
+          <input class="cf-input" id="cf-subject" type="text" placeholder="Internship / Collaboration / Hi!" />
+        </div>
+        <div class="cf-group">
+          <label class="cf-label" for="cf-msg">Message</label>
+          <textarea class="cf-input cf-textarea" id="cf-msg" rows="4" placeholder="Tell me about your project…"
+            required></textarea>
+        </div>
+        <button class="cf-submit" id="cf-submit-btn" type="submit">
+          <span class="cf-btn-text">Send Message</span>
+          <span class="cf-btn-arrow">→</span>
+        </button>
+        <p class="cf-success" id="cf-success">✅ Message sent! I'll get back to you soon.</p>
+      </form>
+
+    </div><!-- /contact-inner -->
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <p>© 2026 Aditya Singh Sengar. Built with Passion &amp; Code.</p>
+    <p class="footer-social">
+      <a href="https://www.instagram.com/4ryan.web/" target="_blank" rel="noopener noreferrer">@4ryan.web</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
